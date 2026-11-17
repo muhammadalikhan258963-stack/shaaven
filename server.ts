@@ -1,5 +1,6 @@
-import express, { Request, Response, NextFunction } from 'express';
+import express, { type Request, type Response, type NextFunction } from 'express';
 import fs from 'fs';
+import os from 'os';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
@@ -11,13 +12,34 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const PORT = Number(process.env.PORT) || 3000;
-const ADMIN_PIN = process.env.ADMIN_PIN || '1234';
+const rawEnvPin = process.env.ADMIN_PIN?.trim();
+const ADMIN_PIN =
+  rawEnvPin && rawEnvPin !== '1234' && rawEnvPin !== 'shaven' ? rawEnvPin : 'shaaven';
 const TOKEN_SECRET = process.env.SESSION_SECRET || crypto.createHash('sha256').update(`shaaven-${ADMIN_PIN}`).digest('hex');
 
-const DATA_DIR = path.resolve(__dirname, 'data');
+const PROJECT_DATA_DIR = path.resolve(__dirname, 'data');
+const SEED_PATH = path.join(PROJECT_DATA_DIR, 'seedProducts.json');
+const PROJECT_UPLOADS_DIR = path.resolve(__dirname, 'uploads');
+
+function resolveWritableDir(preferredDir: string, fallbackSubdir: string): string {
+  try {
+    if (!fs.existsSync(preferredDir)) {
+      fs.mkdirSync(preferredDir, { recursive: true });
+    }
+    fs.accessSync(preferredDir, fs.constants.W_OK);
+    return preferredDir;
+  } catch {
+    const tmpDir = path.join(os.tmpdir(), 'shaaven-store', fallbackSubdir);
+    if (!fs.existsSync(tmpDir)) {
+      fs.mkdirSync(tmpDir, { recursive: true });
+    }
+    return tmpDir;
+  }
+}
+
+const DATA_DIR = resolveWritableDir(PROJECT_DATA_DIR, 'data');
 const DB_PATH = path.join(DATA_DIR, 'store.json');
-const SEED_PATH = path.join(DATA_DIR, 'seedProducts.json');
-const UPLOADS_DIR = path.resolve(__dirname, 'uploads');
+const UPLOADS_DIR = resolveWritableDir(PROJECT_UPLOADS_DIR, 'uploads');
 
 interface ColorVariant {
   name: string;
@@ -501,6 +523,10 @@ async function startServer() {
     app.use(vite.middlewares);
   } else {
     const distDir = path.resolve(__dirname, 'dist');
+    const srcImagesDir = path.resolve(__dirname, 'src/assets/images');
+    if (fs.existsSync(srcImagesDir)) {
+      app.use('/src/assets/images', express.static(srcImagesDir));
+    }
     app.use(express.static(distDir));
     app.get('*', (req: Request, res: Response, next: NextFunction) => {
       if (req.path.startsWith('/api/') || req.path.startsWith('/uploads/')) {

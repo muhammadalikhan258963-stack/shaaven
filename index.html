@@ -3,6 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function () {
+        window.addEventListener(
+          'error',
+          function (e) {
+            var src = (e && e.filename) || '';
+            var stack = (e && e.error && e.error.stack) || '';
+            if (src.indexOf('chrome-extension://') === 0 || stack.indexOf('chrome-extension://') !== -1) {
+              e.preventDefault();
+              e.stopImmediatePropagation();
+            }
+          },
+          true
+        );
+        try {
+          var d = Object.getOwnPropertyDescriptor(window, 'fetch');
+          if (d && d.configurable && !d.writable && !d.set && typeof d.get === 'function') {
+            var origGet = d.get;
+            Object.defineProperty(window, 'fetch', {
+              configurable: true,
+              enumerable: d.enumerable,
+              get: origGet,
+              set: function () {}
+            });
+          }
+        } catch (_) {}
+      })();
+    </script>
     <title>SHA.AVEN Online Solution — Upgrade Your Style</title>
     <meta name="description" content="Modern Gear. Better Life. Shop audio, smart watches, grooming tools, and lifestyle gear across Pakistan with Cash on Delivery and instant WhatsApp ordering." />
     <meta property="og:title" content="SHA.AVEN Online Solution — Premium Store" />

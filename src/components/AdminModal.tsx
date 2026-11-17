@@ -473,7 +473,7 @@ export const AdminModal: React.FC<AdminModalProps> = ({
                   Admin Login
                 </h3>
                 <p className="mt-1 text-xs text-zinc-500">
-                  Enter your Admin PIN to add or edit products (Default PIN: <strong className="text-zinc-800">1234</strong>)
+                  Enter your password to manage products and orders
                 </p>
               </div>
 
@@ -484,14 +484,14 @@ export const AdminModal: React.FC<AdminModalProps> = ({
               )}
 
               <div>
-                <label className="block text-xs font-bold text-zinc-800 mb-1">Admin PIN</label>
+                <label className="block text-xs font-bold text-zinc-800 mb-1">Password</label>
                 <input
                   type="password"
                   autoFocus
                   required
                   value={pinInput}
                   onChange={(e) => setPinInput(e.target.value)}
-                  placeholder="Enter PIN (1234)"
+                  placeholder="Enter password"
                   className="w-full px-4 py-2.5 rounded-xl border border-zinc-300 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400"
                 />
               </div>
