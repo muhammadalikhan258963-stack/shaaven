@@ -1,0 +1,684 @@
+{
+  "products": [
+    {
+      "id": "leisu-ls-255",
+      "name": "Leisu LS-255 Bass Wireless Headphones",
+      "shortDescription": "Enjoy immersive audio with the Leisu LS-255 Bass wireless headset.",
+      "fullDescription": "Enjoy rich, punchy bass and wireless freedom with the Leisu LS-255 Wireless Headphones. Engineered with plush memory-foam ear cushions, foldable headband, and long battery backup for travel and daily listening.",
+      "category": "audio",
+      "price": 2675,
+      "inStock": true,
+      "image": "/src/assets/images/prod_wireless_headphones_1794914425225.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "PRODUCT",
+          "hex": "#1F2937"
+        },
+        {
+          "name": "BLACK",
+          "hex": "#111827",
+          "imageFilter": "brightness(0.95) contrast(1.08)"
+        },
+        {
+          "name": "GRAYISH SILVER",
+          "hex": "#9CA3AF",
+          "imageFilter": "brightness(1.18) contrast(0.92)"
+        },
+        {
+          "name": "BEIGE CREAM",
+          "hex": "#D6C7B2",
+          "imageFilter": "sepia(0.32) brightness(1.12)"
+        }
+      ],
+      "specs": [
+        "Bluetooth 5.3 Wireless",
+        "Deep Bass 40mm Drivers",
+        "Up to 18h Playtime",
+        "Foldable Travel Design"
+      ]
+    },
+    {
+      "id": "samsung-buds-3-pro",
+      "name": "Samsung Galaxy Buds 3 Pro | WHITE & BLACK",
+      "shortDescription": "Experience premium studio audio and seamless wireless pairing.",
+      "fullDescription": "Compact wireless earbuds delivering crystal-clear voice calls, dynamic acoustic drivers, and an ergonomic charging case for all-day portability.",
+      "category": "audio",
+      "price": 2490,
+      "inStock": true,
+      "image": "/src/assets/images/prod_wireless_earbuds_1794914426874.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "PRODUCT",
+          "hex": "#F3F4F6"
+        },
+        {
+          "name": "WHITE",
+          "hex": "#FFFFFF",
+          "imageFilter": "brightness(1.03)"
+        },
+        {
+          "name": "BLACK",
+          "hex": "#111827",
+          "imageFilter": "invert(0.88) hue-rotate(180deg)"
+        }
+      ],
+      "specs": [
+        "Active Noise Isolation",
+        "Touch Media Controls",
+        "Type-C Fast Charging Case",
+        "Sweat & Splash Resistant"
+      ]
+    },
+    {
+      "id": "dolphin-d08-handsfree",
+      "name": "Dolphin D-08 Handsfree | Stereo Sound",
+      "shortDescription": "Key Features: High-fidelity stereo sound with inline mic.",
+      "fullDescription": "High-clarity stereo wired earphone built for everyday music, gaming, and crystal-clear handsfree calling with tangle-resistant cable.",
+      "category": "audio",
+      "price": 640,
+      "inStock": true,
+      "image": "/src/assets/images/prod_wired_earphones_1794914450704.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827"
+        }
+      ],
+      "specs": [
+        "3.5mm Universal Gold Jack",
+        "Inline Mic & Call Button",
+        "Tangle-Free Braided Cord",
+        "Deep Stereo Bass"
+      ]
+    },
+    {
+      "id": "d01-handsfree-bass",
+      "name": "D-01 Handsfree | Super Bass Earphone",
+      "shortDescription": "Key Features: Super Bass technology for deep punchy lows.",
+      "fullDescription": "Lightweight ergonomic earphones tuned with Super Bass acoustic chambers and soft silicone tips for comfortable extended wear.",
+      "category": "audio",
+      "price": 580,
+      "inStock": true,
+      "image": "/src/assets/images/prod_wired_earphones_1794914450704.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827",
+          "imageFilter": "contrast(1.06)"
+        }
+      ],
+      "specs": [
+        "Super Bass Acoustic Driver",
+        "Noise-Isolating Ear Tips",
+        "Built-in HD Microphone",
+        "1.2m Durable Cable"
+      ]
+    },
+    {
+      "id": "leisu-ls-212",
+      "name": "Leisu LS-212 Wireless Stereo Headphones",
+      "shortDescription": "The Leisu LS-212 Wireless Stereo Headphones for studio comfort.",
+      "fullDescription": "Sleek over-ear Bluetooth headphones featuring balanced stereo output, microSD card playback slot, FM radio, and ultra-soft earpads.",
+      "category": "audio",
+      "price": 2300,
+      "inStock": true,
+      "image": "/src/assets/images/prod_wireless_headphones_1794914425225.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827"
+        },
+        {
+          "name": "BLUE",
+          "hex": "#2563EB",
+          "imageFilter": "hue-rotate(205deg) saturate(1.4)"
+        },
+        {
+          "name": "GREY",
+          "hex": "#6B7280",
+          "imageFilter": "brightness(1.15) contrast(0.95)"
+        },
+        {
+          "name": "WHITE",
+          "hex": "#F3F4F6",
+          "imageFilter": "brightness(1.25) contrast(0.9)"
+        }
+      ],
+      "specs": [
+        "Wireless Bluetooth + AUX",
+        "TF Card & FM Built-in",
+        "Soft Protein Earpads",
+        "300mAh Long Battery"
+      ]
+    },
+    {
+      "id": "m10-damix-v53",
+      "name": "M10 Damix V 5.3 Bluetooth Wireless Earbuds",
+      "shortDescription": "Stay worry-free with the M10 Damix V 5.3 LED power bank earbuds.",
+      "fullDescription": "True wireless earbuds equipped with an LED digital battery percentage display and high-capacity charging dock that doubles as an emergency phone power bank.",
+      "category": "audio",
+      "price": 999,
+      "inStock": true,
+      "image": "/src/assets/images/prod_wireless_earbuds_1794914426874.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827",
+          "imageFilter": "invert(0.88) hue-rotate(180deg)"
+        }
+      ],
+      "specs": [
+        "Bluetooth V5.3 Chipset",
+        "LED Digital Power Display",
+        "Power Bank Charging Case",
+        "IPX5 Waterproof"
+      ]
+    },
+    {
+      "id": "2in1-double-head-shaver",
+      "name": "2-in-1 Double Head Electric Shaver & Epilator",
+      "shortDescription": "Enjoy convenient at-home grooming with the gentle dual-head shaver.",
+      "fullDescription": "Gentle cordless 2-in-1 electric shaver and epilator designed for smooth, painless skin care with USB rechargeable battery.",
+      "category": "accessories",
+      "price": 1499,
+      "inStock": true,
+      "image": "/src/assets/images/prod_electric_shaver_1794914450812.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "Purple",
+          "hex": "#9333EA"
+        }
+      ],
+      "specs": [
+        "Dual Interchangeable Heads",
+        "USB Rechargeable Cordless",
+        "Skin-Friendly Hypoallergenic Blades",
+        "Compact Travel Size"
+      ]
+    },
+    {
+      "id": "2in1-flawless-remover",
+      "name": "2-in-1 Flawless Facial Hair Remover & Trimmer",
+      "shortDescription": "2-in-1 Flawless Facial Hair Remover & Eyebrow precision trimmer.",
+      "fullDescription": "Discreet rose-gold precision trimmer with built-in LED light for effortless eyebrow shaping and facial touch-ups without irritation.",
+      "category": "accessories",
+      "price": 1199,
+      "inStock": true,
+      "image": "/src/assets/images/prod_electric_shaver_1794914450812.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "Pink",
+          "hex": "#EC4899",
+          "imageFilter": "hue-rotate(325deg) saturate(1.15)"
+        }
+      ],
+      "specs": [
+        "18K Rose-Gold Plated Head",
+        "Built-in LED Illumination",
+        "2-in-1 Brow & Facial Tips",
+        "USB Charging Included"
+      ]
+    },
+    {
+      "id": "2in1-misting-hair-brush",
+      "name": "2-in-1 Misting Hair Brush with Water Spray",
+      "shortDescription": "Refresh, detangle, and style your hair with this 2-in-1 misting brush.",
+      "fullDescription": "Advanced nano-mist steam hair brush that hydrates dry strands while detangling and smoothing frizz for salon-fresh shine.",
+      "category": "accessories",
+      "price": 1230,
+      "inStock": true,
+      "image": "/src/assets/images/prod_hair_straightener_brush_1794914474039.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827"
+        },
+        {
+          "name": "PINK",
+          "hex": "#EC4899",
+          "imageFilter": "sepia(0.25) hue-rotate(305deg) saturate(1.3)"
+        }
+      ],
+      "specs": [
+        "Fine Nano-Mist Spray Nozzle",
+        "Soft Anti-Static Bristles",
+        "Refillable Water Reservoir",
+        "USB Rechargeable"
+      ]
+    },
+    {
+      "id": "hair-beard-straightener-comb",
+      "name": "Hair & Beard Straightener Comb for Men",
+      "shortDescription": "Hair & Beard Straightener Comb for Men with rapid ceramic heating.",
+      "fullDescription": "Quick-heating ceramic comb designed for taming unruly beards and styling hair effortlessly in minutes with anti-scald protective teeth.",
+      "category": "accessories",
+      "price": 999,
+      "inStock": true,
+      "image": "/src/assets/images/prod_hair_straightener_brush_1794914474039.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827",
+          "imageFilter": "contrast(1.06)"
+        }
+      ],
+      "specs": [
+        "30-Second Fast Heat-Up",
+        "Anti-Scald Comb Guard",
+        "360° Swivel Power Cord",
+        "Dual Voltage Worldwide"
+      ]
+    },
+    {
+      "id": "remington-rm-6002",
+      "name": "Remington Hair Dryer RM-6002 | Salon Edition",
+      "shortDescription": "Get fast and convenient hair drying and styling with 2 heat speeds.",
+      "fullDescription": "Powerful salon-grade blow dryer complete with concentrator nozzle, diffuser attachment, and cool-shot lock button.",
+      "category": "accessories",
+      "price": 1800,
+      "inStock": true,
+      "image": "/src/assets/images/prod_hair_dryer_1794914426863.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827"
+        }
+      ],
+      "specs": [
+        "High-Torque AC Motor",
+        "Concentrator Nozzle Included",
+        "Cool Shot Setting",
+        "Overheat Protection"
+      ]
+    },
+    {
+      "id": "philips-a20-hair-dryer",
+      "name": "PHILIPS A-20 Hair Dryer | 2500W Pro",
+      "shortDescription": "Achieve fast, smooth, and salon-style results with ThermoProtect.",
+      "fullDescription": "2500W professional ionic hair dryer engineered to reduce frizz and dry hair faster while protecting natural moisture.",
+      "category": "accessories",
+      "price": 1700,
+      "inStock": true,
+      "image": "/src/assets/images/prod_hair_dryer_1794914426863.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "MAD GREEN",
+          "hex": "#166534",
+          "imageFilter": "saturate(1.25)"
+        }
+      ],
+      "specs": [
+        "2500W High-Power Airflow",
+        "Ionic Conditioning Care",
+        "3 Heat & 2 Speed Modes",
+        "Hanging Storage Loop"
+      ]
+    },
+    {
+      "id": "vintage-t9-trimmer",
+      "name": "Professional T9 Hair & Beard Trimmer",
+      "shortDescription": "Upgrade your grooming routine with the metal-body Vintage T9.",
+      "fullDescription": "Precision zero-gap T-blade cordless trimmer with engraved metallic dragon body, USB-C fast charging, and 4 limit guide combs.",
+      "category": "accessories",
+      "price": 1000,
+      "inStock": true,
+      "image": "/src/assets/images/prod_grooming_trimmer_1794914427604.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "GOLDEN",
+          "hex": "#D97706"
+        }
+      ],
+      "specs": [
+        "Zero-Gap Titanium T-Blade",
+        "All-Metal Engraved Body",
+        "1200mAh Li-Ion Battery",
+        "4 Guide Combs Included"
+      ]
+    },
+    {
+      "id": "dermasu-blackhead-machine",
+      "name": "Blackhead Removal Machine | DermaSu Pore Vacuum",
+      "shortDescription": "Get clearer, smoother skin with the DermaSu Pore Cleansing Vacuum.",
+      "fullDescription": "Multi-level suction blackhead extractor with 4 specialized beauty probes to gently lift impurities, dead skin, and excess oil.",
+      "category": "accessories",
+      "price": 1100,
+      "inStock": true,
+      "image": "/src/assets/images/prod_pore_vacuum_1794914451001.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "WHITE",
+          "hex": "#F3F4F6"
+        }
+      ],
+      "specs": [
+        "5 Adjustable Suction Levels",
+        "4 Interchangeable Probes",
+        "USB Rechargeable",
+        "Gentle Pore Exfoliation"
+      ]
+    },
+    {
+      "id": "portable-blackhead-remover",
+      "name": "Blackhead Suction Remover Portable Pore Cleaner",
+      "shortDescription": "Achieve clear, radiant, and healthy skin with LED indicator control.",
+      "fullDescription": "Ergonomic cordless facial vacuum cleaner featuring diamond microcrystalline and oval lifting tips for daily skincare routines.",
+      "category": "accessories",
+      "price": 1200,
+      "inStock": true,
+      "image": "/src/assets/images/prod_pore_vacuum_1794914451001.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "WHITE",
+          "hex": "#F3F4F6",
+          "imageFilter": "brightness(1.02)"
+        }
+      ],
+      "specs": [
+        "Deep Pore Vacuum Extraction",
+        "Microcrystalline Peeling Tip",
+        "LED Strength Indicator",
+        "Compact Travel Pouch"
+      ]
+    },
+    {
+      "id": "laptop-table-beige",
+      "name": "Laptop Table Foldable with Tablet & Cup Slot",
+      "shortDescription": "Enhance your productivity and comfort with this foldable bed desk.",
+      "fullDescription": "Sturdy portable laptop bed desk featuring an integrated tablet/phone groove, built-in mug holder, and non-slip foldable steel legs.",
+      "category": "accessories",
+      "price": 2350,
+      "inStock": true,
+      "image": "/src/assets/images/prod_laptop_table_1794914427655.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BEIGE",
+          "hex": "#D6C7B2"
+        }
+      ],
+      "specs": [
+        "Integrated Tablet & Cup Slot",
+        "Fold-Flat Storage Legs",
+        "Anti-Slip Foam Feet",
+        "Supports up to 17\" Laptops"
+      ]
+    },
+    {
+      "id": "laptop-table-black",
+      "name": "Laptop Table | Black Color | Foldable Desk",
+      "shortDescription": "Make work and relaxation more comfortable with matte black finish.",
+      "fullDescription": "Sleek matte-black foldable lap desk perfect for remote work, study, or breakfast in bed with durable scratch-resistant tabletop.",
+      "category": "accessories",
+      "price": 2250,
+      "inStock": true,
+      "image": "/src/assets/images/prod_laptop_table_1794914427655.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827",
+          "imageFilter": "brightness(0.75) contrast(1.18)"
+        }
+      ],
+      "specs": [
+        "Matte Black Woodgrain Finish",
+        "Tablet & Pen Groove",
+        "Cup Holder Recess",
+        "Lightweight & Portable"
+      ]
+    },
+    {
+      "id": "car-rearview-phone-holder",
+      "name": "Universal Car Rearview Mirror Phone Holder",
+      "shortDescription": "Upgrade your driving experience with the 360° rotatable mirror mount.",
+      "fullDescription": "Vibration-free 360-degree rotating smartphone mount that clips securely onto your car rearview mirror for safe eye-level GPS navigation.",
+      "category": "mobiles",
+      "price": 799,
+      "inStock": true,
+      "image": "/src/assets/images/prod_car_phone_mount_1794914473896.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827"
+        }
+      ],
+      "specs": [
+        "360° Swivel Ball Joint",
+        "Retractable Mirror Clamp",
+        "Fits 4.7\" – 6.9\" Phones",
+        "One-Hand Quick Release"
+      ]
+    },
+    {
+      "id": "neck-shoulder-massager",
+      "name": "Neck & Shoulder Kneading Massager Shiatsu",
+      "shortDescription": "Enjoy a soothing massage experience with heated 3D kneading nodes.",
+      "fullDescription": "Cordless ergonomic shiatsu neck and shoulder massager with soothing infrared heat therapy and bi-directional kneading rollers.",
+      "category": "accessories",
+      "price": 5500,
+      "inStock": true,
+      "image": "/src/assets/images/prod_neck_massager_1794914451728.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "DARK GREEN",
+          "hex": "#14532D"
+        }
+      ],
+      "specs": [
+        "8 Deep-Tissue Kneading Nodes",
+        "Soothing Heat Therapy",
+        "Cordless Rechargeable Battery",
+        "Adjustable Arm Straps"
+      ]
+    },
+    {
+      "id": "ems-butterfly-massager",
+      "name": "EMS Butterfly Portable Neck & Back Massager",
+      "shortDescription": "Experience instant relaxation and relief with 8 EMS pulse modes.",
+      "fullDescription": "Ultra-thin pocket-sized EMS micro-current therapy pad offering 8 massage techniques and 19 intensity levels for neck, back, and shoulders.",
+      "category": "accessories",
+      "price": 1000,
+      "inStock": true,
+      "image": "/src/assets/images/prod_neck_massager_1794914451728.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827",
+          "imageFilter": "saturate(0.35) contrast(1.1)"
+        }
+      ],
+      "specs": [
+        "8 Massage Pulse Modes",
+        "19 Intensity Levels",
+        "USB Rechargeable",
+        "Self-Adhesive Gel Pad"
+      ]
+    },
+    {
+      "id": "cordless-car-wash-gun",
+      "name": "Automatic Cordless Car Wash Spray Gun 24V",
+      "shortDescription": "Make car cleaning effortless with high-pressure cordless power.",
+      "fullDescription": "Portable 24V lithium cordless pressure washer kit including 5-in-1 multi-angle nozzle, foam cannon bottle, 5m hose, and water filter.",
+      "category": "accessories",
+      "price": 4400,
+      "inStock": true,
+      "image": "/src/assets/images/prod_car_wash_gun_1794914451894.jpg",
+      "featured": true,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827"
+        }
+      ],
+      "specs": [
+        "24V Lithium Battery Pack",
+        "Foam Cannon Bottle Included",
+        "5-Meter Self-Priming Hose",
+        "Multi-Spray Nozzles"
+      ]
+    },
+    {
+      "id": "shaaven-smartwatch-ultra",
+      "name": "Smartwatch Ultra Titanium | AMOLED Calling",
+      "shortDescription": "Rugged 49mm titanium watch with Bluetooth calling & health tracking.",
+      "fullDescription": "Flagship Smartwatch Ultra featuring a vibrant always-on display, Bluetooth voice calling, heart rate & SpO2 monitoring, and 7-day battery life.",
+      "category": "smart-watches",
+      "price": 4850,
+      "inStock": true,
+      "image": "/src/assets/images/prod_smartwatch_ultra_1794914450853.jpg",
+      "featured": false,
+      "colors": [
+        {
+          "name": "ORANGE",
+          "hex": "#EA580C"
+        },
+        {
+          "name": "BLACK",
+          "hex": "#111827",
+          "imageFilter": "saturate(0.25) contrast(1.08)"
+        }
+      ],
+      "specs": [
+        "49mm Titanium Alloy Case",
+        "Bluetooth Calling & Alerts",
+        "Wireless Magnetic Charger",
+        "IP68 Water Resistant"
+      ]
+    },
+    {
+      "id": "urban-heavyweight-hoodie",
+      "name": "Urban Colorblock Heavyweight Fleece Hoodie",
+      "shortDescription": "400GSM brushed cotton fleece hoodie with tailored modern fit.",
+      "fullDescription": "Crafted from breathable heavyweight 400GSM cotton-fleece blend for crisp winter warmth and structured streetwear silhouette.",
+      "category": "hoodies",
+      "price": 2890,
+      "inStock": true,
+      "image": "/src/assets/images/prod_mens_hoodie_1794914474785.jpg",
+      "featured": false,
+      "colors": [
+        {
+          "name": "CAMEL & BLACK",
+          "hex": "#B45309"
+        },
+        {
+          "name": "CHARCOAL",
+          "hex": "#1F2937",
+          "imageFilter": "saturate(0.2) brightness(0.9)"
+        }
+      ],
+      "specs": [
+        "400GSM Brushed Cotton Fleece",
+        "Double-Lined Hood",
+        "Kangaroo Front Pocket",
+        "Ribbed Cuffs & Hem"
+      ]
+    },
+    {
+      "id": "mens-essential-pullover",
+      "name": "Men's Signature Winter Streetwear Pullover",
+      "shortDescription": "Structured everyday menswear engineered for comfort and durability.",
+      "fullDescription": "Soft-touch winter pullover designed for clean layering with reinforced seams and fade-resistant dye.",
+      "category": "mens-wear",
+      "price": 2650,
+      "inStock": true,
+      "image": "/src/assets/images/prod_mens_hoodie_1794914474785.jpg",
+      "featured": false,
+      "colors": [
+        {
+          "name": "BLACK",
+          "hex": "#111827",
+          "imageFilter": "saturate(0.2) contrast(1.08)"
+        },
+        {
+          "name": "BEIGE",
+          "hex": "#D6C7B2"
+        }
+      ],
+      "specs": [
+        "Premium Cotton Blend",
+        "Relaxed Athletic Cut",
+        "Pre-Shrunk Fabric",
+        "Sizes M / L / XL"
+      ]
+    },
+    {
+      "id": "aero-stride-sneakers",
+      "name": "AeroStride Breathable Running Sneakers",
+      "shortDescription": "Lightweight cushioned mesh sneakers built for all-day grip.",
+      "fullDescription": "Responsive EVA foam midsole paired with breathable engineered knit upper for gym workouts and city walking.",
+      "category": "shoes",
+      "price": 4200,
+      "inStock": true,
+      "image": "/src/assets/images/prod_sport_sneakers_1794914474644.jpg",
+      "featured": false,
+      "colors": [
+        {
+          "name": "CRIMSON RED",
+          "hex": "#DC2626"
+        },
+        {
+          "name": "MIDNIGHT BLACK",
+          "hex": "#111827",
+          "imageFilter": "saturate(0.15) brightness(0.65)"
+        }
+      ],
+      "specs": [
+        "Breathable 3D Knit Upper",
+        "Shock-Absorbing EVA Sole",
+        "Non-Slip Rubber Tread",
+        "Sizes 40 – 45 EU"
+      ]
+    },
+    {
+      "id": "nordic-anti-theft-backpack",
+      "name": "Nordic Waterproof 15.6\" Laptop Backpack",
+      "shortDescription": "Sleek commuter backpack with padded laptop bay and USB port.",
+      "fullDescription": "Weather-resistant Oxford weave travel and university backpack featuring hidden anti-theft pocket, luggage strap, and cushioned shoulder support.",
+      "category": "bags",
+      "price": 3450,
+      "inStock": true,
+      "image": "/src/assets/images/prod_tech_backpack_1794914475768.jpg",
+      "featured": false,
+      "colors": [
+        {
+          "name": "NAVY SLATE",
+          "hex": "#1E293B"
+        },
+        {
+          "name": "BLACK",
+          "hex": "#111827",
+          "imageFilter": "saturate(0.2) brightness(0.85)"
+        }
+      ],
+      "specs": [
+        "Fits 15.6\" Laptops",
+        "Water-Repellent Oxford Fabric",
+        "External USB Charging Port",
+        "Hidden Anti-Theft Pocket"
+      ]
+    }
+  ],
+  "orders": [],
+  "carts": {
+    "test_cid": []
+  }
+}
